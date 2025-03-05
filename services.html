@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Contextual Chambers LLC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* White box style for general sections (intro and service blocks) */
+    .box-section, .box-service {
+      background-color: #FFFFFF;
+      color: #2C2C2C;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    /* Deep navy text for headings and titles */
+    .deep-navy {
+      color: #1B2A41;
+      font-weight: bold;
+    }
+    /* Remove redundant call-to-action buttons from service blocks */
+    .box-service .cta { display: none; }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="py-3">
+    <div class="container d-flex align-items-center justify-content-between" style="height: 80px;">
+      <h1 class="fw-bold align-self-end" style="font-size: 250%; color: #ffffff;">Contextual Chambers LLC</h1>
+      <a href="index.html">
+        <img src="images/logo.png" alt="Logo" style="height:110px;">
+      </a>
+    </div>
+  </header>
+  
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Main Content -->
+  <main class="container my-5">
+    <!-- Page Title with drop-in animation -->
+    <h2 class="animate__animated animate__fadeInDown mb-4 deep-navy">Our Services</h2>
+    
+    <!-- Introductory White Box spanning full width -->
+    <section class="box-section">
+      <p>
+        At Contextual Chambers LLC, we specialize in helping businesses, nonprofits, and mission-driven organizations unlock their full potential. Whether you're looking to optimize operations, secure funding, or build strategic partnerships, our customized, results-driven approach ensures your organization thrives.
+      </p>
+      <div class="text-center mt-3">
+        <a href="contact.html" class="btn btn-primary">Let’s Connect</a>
+      </div>
+    </section>
+    
+    <!-- "What We Do" Section Heading -->
+    <h2 class="fw-bold text-center mb-4">What We Do</h2>
+    
+    <!-- Two-Column Row for Service Blocks -->
+    <section class="mb-5">
+      <div class="row d-flex align-items-stretch">
+        <!-- Business Operations & Growth Strategy -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="box-service h-100">
+            <h3 class="deep-navy">Business Operations &amp; Growth Strategy</h3>
+            <p>Improve efficiency, scale smarter, and create sustainable systems.</p>
+            <ul>
+              <li><strong>Process Optimization:</strong> Identify inefficiencies and implement streamlined workflows that save time and resources.</li>
+              <li><strong>Strategic Planning:</strong> Develop data-driven roadmaps aligned with your goals and maximize operational success.</li>
+              <li><strong>AI &amp; Automation Integration:</strong> Leverage cutting-edge technology to reduce manual effort and improve decision-making.</li>
+              <li><strong>Organizational Capacity Building:</strong> Build stronger internal systems that position your team for long-term growth.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fundraising & Revenue Strategy -->
+        <div class="col-md-6">
+          <div class="box-service h-100">
+            <h3 class="deep-navy">Fundraising &amp; Revenue Strategy</h3>
+            <p>Secure the funding you need to grow—without guesswork.</p>
+            <ul>
+              <li><strong>Philanthropic Fundraising:</strong> Identify and pursue aligned grants, foundations, and major donors.</li>
+              <li><strong>Corporate Sponsorships:</strong> Build revenue-driving relationships with industry leaders and corporate sponsors.</li>
+              <li><strong>Diversified Funding Strategies:</strong> Explore alternative revenue streams beyond traditional fundraising.</li>
+              <li><strong>Financial Forecasting &amp; Grant Management:</strong> Develop robust models to track and optimize fundraising performance.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Full-Width Block for Partnership Development & Market Positioning -->
+      <div class="row mt-4">
+        <div class="col-12">
+          <div class="box-service">
+            <h3 class="deep-navy">Partnership Development &amp; Market Positioning</h3>
+            <p>Build high-impact alliances that accelerate growth.</p>
+            <ul>
+              <li><strong>Corporate &amp; Public-Private Partnerships:</strong> Secure strategic collaborations with leading organizations.</li>
+              <li><strong>Market Positioning &amp; Brand Alignment:</strong> Ensure your organization stands out to investors and industry leaders.</li>
+              <li><strong>Stakeholder Engagement:</strong> Develop lasting relationships with policymakers and community partners.</li>
+              <li><strong>Thought Leadership &amp; Industry Influence:</strong> Position yourself as an expert through strategic storytelling and media placement.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Why Work With Us Section -->
+    <section class="box-section text-center">
+      <h3 class="deep-navy">Why Work With Us?</h3>
+      <p>
+        At Contextual Chambers LLC, we combine deep industry expertise, data-driven strategies, and cutting-edge technology to create solutions tailored to your unique challenges.
+      </p>
+      <ul class="list-unstyled">
+        <li><strong>Implementation:</strong> We don’t just advise—we work hands-on to execute strategies that drive measurable results.</li>
+        <li><strong>Efficiency:</strong> Our AI-powered automation ensures maximum efficiency and a competitive edge.</li>
+        <li><strong>Global Expertise:</strong> We leverage a global network and market insights to position you for success.</li>
+      </ul>
+      <p class="mt-3">Ready to accelerate your growth?</p>
+      <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+    </section>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <div class="mb-2">
+         <a href="#" class="me-3">Facebook</a>
+         <a href="#" class="me-3">Twitter</a>
+         <a href="#">LinkedIn</a>
+      </div>
+      <p class="mb-1">&copy; 2025 Contextual Chambers LLC. All rights reserved.</p>
+      <small>Legal disclaimers and privacy policy information go here.</small>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

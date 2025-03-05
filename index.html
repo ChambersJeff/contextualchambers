@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contextual Chambers LLC - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* New custom style for navy boxes */
+    .box-navy {
+      background-color: #1B2A41;
+      color: #A6A6A6;
+      border-radius: 8px; /* Slightly rounded corners */
+      padding: 1.5rem;
+    }
+    /* Make the headings inside navy boxes white and bold */
+    .box-navy h3 {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+    /* Ensure the blog posts section has the same background as the page */
+    #blog {
+      background-color: #A6A6A6;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    /* White box for blog insights */
+    .box-white {
+      background-color: #FFFFFF;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="py-3">
+    <div class="container d-flex align-items-center justify-content-between" style="height: 80px;">
+      <h1 class="fw-bold align-self-end" style="font-size: 250%; color: #ffffff;">Contextual Chambers LLC</h1>
+      <a href="index.html">
+        <img src="images/logo.png" alt="Logo" style="height:110px;">
+      </a>
+    </div>
+  </header>
+  
+  
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <!-- Headline & Subheadline -->
+    <section class="mb-5 text-center">
+      <h2 class="fw-bold animate__animated animate__fadeInDown">
+        <span style="display:inline-block; animation-delay:0s;">Unlocking Growth. </span>
+        <span style="display:inline-block; animation-delay:0.5s;">Transforming Strategy. </span>
+        <span style="display:inline-block; animation-delay:1s;">Elevating Impact.</span>
+      </h2>
+      <p class="lead mt-3">
+        Contextual Chambers LLC helps businesses and nonprofits navigate complexity, optimize operations, and secure sustainable partnerships in an evolving economy.
+      </p>
+    </section>
+
+    <!-- Two-Column Section for "Why Contextual Chambers LLC?" and "Our Services" -->
+    <section class="mb-5">
+      <div class="row d-flex align-items-stretch">
+        <!-- Left Column: Why Contextual Chambers LLC? -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="box-navy d-flex flex-column justify-content-between h-100">
+            <div>
+              <h3 class="h5">Why Contextual Chambers LLC?</h3>
+              <p>
+                In today’s fast-changing world, organizations can’t afford to rely on outdated strategies. We provide context-driven solutions—harnessing deep industry insight, cutting-edge technology, and data-driven strategy to fuel growth and maximize impact.
+              </p>
+              <ul>
+                <li>Who We Work With: Startups, nonprofits, and established enterprises looking to optimize operations, fundraise effectively, and build high-impact partnerships.</li>
+                <li>Why It Works: We combine technology, automation, and strategic insight to create scalable, sustainable solutions.</li>
+                <li>What You Get: More clarity. More efficiency. More growth.</li>
+              </ul>
+            </div>
+            <div class="text-center mt-3">
+              <a href="contact.html" class="btn btn-primary">Let’s Connect</a>
+            </div>
+          </div>
+        </div>
+        <!-- Right Column: Our Services -->
+        <div class="col-md-6">
+          <div class="box-navy d-flex flex-column justify-content-between h-100">
+            <div>
+              <h3 class="h5">Our Services</h3>
+              <p>We offer a range of consulting services designed to help your business thrive:</p>
+              <ul>
+                <li>Fundraising &amp; Philanthropy Strategy: Secure the funding you need to scale.</li>
+                <li>Business Operations &amp; Growth: Streamline processes and maximize efficiency.</li>
+                <li>Partnership Development: Build strategic alliances that drive long-term success.</li>
+                <li>Market &amp; Policy Research: Stay ahead of industry trends and regulatory changes.</li>
+              </ul>
+            </div>
+            <div class="text-center mt-3">
+              <a href="services.html" class="btn btn-primary">Explore Our Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full-Width Section for "Stay Informed" -->
+    <section class="mb-5">
+      <div class="box-navy text-center">
+        <h3 class="h5">Stay Informed</h3>
+        <p>
+          The economy is shifting—are you keeping up? Stay informed with insights, strategies, and industry trends on our blog.
+        </p>
+        <div class="text-center mt-3">
+          <a href="#blog" class="btn btn-primary">Read Our Latest Insights</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section id="blog">
+      <h3 class="mb-4 fw-bold">Latest Blog Posts</h3>
+      <div class="box-white">
+        <p class="fw-bold text-start mb-0">Insights coming soon!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <div class="mb-2">
+        <a href="#" class="me-3">Facebook</a>
+        <a href="#" class="me-3">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <p class="mb-1">&copy; 2025 Contextual Chambers LLC. All rights reserved.</p>
+      <small>Legal disclaimers and privacy policy information go here.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
