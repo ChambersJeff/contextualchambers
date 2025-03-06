@@ -9,7 +9,7 @@ html, body {
 body {
     background-color: #A6A6A6; /* New background color */
     color: #2C2C2C; /* Charcoal Black for body text */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
+    font-family: Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
