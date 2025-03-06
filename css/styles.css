@@ -40,6 +40,17 @@ header {
     padding: 1rem 0;
 }
 
+.header-container {
+    height: 80px; /* Fixed height on larger screens */
+  }
+  
+  @media (max-width: 767.98px) {
+    .header-container {
+      height: auto; /* Allow the container to expand on mobile */
+    }
+  }
+  
+
 /* Navigation Bar */
 .navbar {
     background-color: #2C2C2C; /* Charcoal Black for navbar */
@@ -56,6 +67,10 @@ header {
 }
 .navbar-brand:hover {
     color: #BA7353 !important;
+}
+.navbar .nav-link,
+.navbar-brand {
+  font-weight: bold;
 }
 
 /* Buttons & Call-to-Action */
@@ -106,3 +121,9 @@ footer a:hover {
     color: #A6A6A6;
     padding: 2rem;
 }
+body {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  
